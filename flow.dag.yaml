@@ -22,7 +22,7 @@ nodes:
   type: llm
   source:
     type: code
-    path: joke.jinja2
+    path: extractProductData.jinja2
   inputs:
     deployment_name: gpt-4
     temperature: 1
