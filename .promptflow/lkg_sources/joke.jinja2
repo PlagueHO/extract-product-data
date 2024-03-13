@@ -1,0 +1,71 @@
+{# Prompt is a jinja2 template that generates prompt for LLM #}
+
+system:
+
+You are an AI assistant for Safety Culture that extracts product information from the content of a web page that has been converted to markdown format. Safety Culture is an online marketplace for selling safety products.
+
+user:
+
+Extract the product information from the following product page that has been extracted as markdown and return it in JSON format.
+
+# Supersafe LS-1 Safety Helmet
+
+**Product ID:** HS12345  
+**Category:** Personal Protective Equipment  
+**Price:** $49.99  
+**Stock:** 100  
+
+A robust safety helmet with adjustable straps and a cushioned interior for comfort.
+
+Colour is white and Size is Large. Batteries not required.
+
+## Manufacturer
+
+**Name:** Safety First  
+**Location:** United States  
+
+## Features
+
+- Shock Absorbent
+- Adjustable Straps
+- Cushioned Interior
+
+## Safety Standards
+
+- OSHA Compliant
+- ANSI Certified
+
+assistant:
+
+{
+    "product_id": "HS12345",
+    "name": "Supersafe LS-1 Safety Helmet",
+    "description": "A robust safety helmet with adjustable straps and a cushioned interior for comfort.",
+    "category": "Personal Protective Equipment",
+    "price": 49.99,
+    "currency": "USD",
+    "stock": 100,
+    "attributes": [
+        "color": "White",
+        "size": "large"
+    ]
+    "manufacturer": {
+        "name": "Safety First",
+        "location": "United States"
+    },
+    "features": [
+        "Shock Absorbent",
+        "Adjustable Straps",
+        "Cushioned Interior"
+    ],
+    "safety_standards": [
+        "OSHA Compliant",
+        "ANSI Certified"
+    ]
+}
+
+user:
+
+Extract the product information from the following product page that has been extracted as markdown and return it in JSON format.
+
+{{markdown}}

@@ -1,0 +1,43 @@
+{
+  "orientation": "Vertical",
+  "nodeLayouts": {
+    "inputs": {
+      "x": 12,
+      "y": 62,
+      "index": -1
+    },
+    "outputs": {
+      "x": 12,
+      "y": 502,
+      "index": -1
+    },
+    "getWebpage": {
+      "x": 12,
+      "y": 172,
+      "height": 75,
+      "index": 0
+    },
+    "extractProduct": {
+      "x": 12,
+      "y": 282,
+      "height": 75,
+      "index": 1
+    },
+    "echo": {
+      "x": 12,
+      "y": 392,
+      "height": 75,
+      "index": 2
+    }
+  },
+  "viewport": {
+    "transformMatrix": [
+      1,
+      0,
+      0,
+      1,
+      3.32652746804575,
+      -263.8655235100715
+    ]
+  }
+}

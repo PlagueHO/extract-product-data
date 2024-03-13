@@ -1,0 +1,70 @@
+{
+  "package": {},
+  "code": {
+    "echo.py": {
+      "name": "echo.py",
+      "type": "python",
+      "inputs": {
+        "product": {
+          "type": [
+            "string"
+          ],
+          "allow_manual_entry": false,
+          "is_multi_select": false,
+          "input_type": "default",
+          "value": "${extractProduct.output}"
+        }
+      },
+      "source": "echo.py",
+      "function": "echo",
+      "is_builtin": false,
+      "enable_kwargs": false,
+      "tool_state": "stable",
+      "toolId": "echo.py"
+    },
+    "joke.jinja2": {
+      "name": "joke.jinja2",
+      "type": "prompt",
+      "inputs": {
+        "markdown": {
+          "type": [
+            "string"
+          ],
+          "allow_manual_entry": false,
+          "is_multi_select": false,
+          "input_type": "default",
+          "value": "${getWebpage.output.markdown}",
+          "id": "bi6p7h0s"
+        }
+      },
+      "description": "Prompt is a jinja2 template that generates prompt for LLM",
+      "source": "joke.jinja2",
+      "is_builtin": false,
+      "enable_kwargs": false,
+      "tool_state": "stable",
+      "toolId": "joke.jinja2"
+    },
+    "getWebpage.py": {
+      "name": "getWebpage.py",
+      "type": "python",
+      "inputs": {
+        "url": {
+          "type": [
+            "string"
+          ],
+          "allow_manual_entry": false,
+          "is_multi_select": false,
+          "input_type": "default",
+          "value": "${inputs.url}",
+          "id": "kxjdo8ad"
+        }
+      },
+      "source": "getWebpage.py",
+      "function": "my_python_tool",
+      "is_builtin": false,
+      "enable_kwargs": false,
+      "tool_state": "stable",
+      "toolId": "getWebpage.py"
+    }
+  }
+}
