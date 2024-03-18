@@ -1,0 +1,529 @@
+{
+  "flow_runs": [
+    {
+      "run_id": "6781ecf6-fb4b-48c1-86a4-878d842186ea_0",
+      "status": "Completed",
+      "error": null,
+      "inputs": {
+        "url": "https://www.medisave.co.nz/collections/bandages-tape/products/aeropad-non-adherent-dressing-7-5-x-10cm-box-50"
+      },
+      "output": {
+        "product_json": "{\n    \"name\": \"AEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\",\n    \"description\": \"The AeroPadTM Non-Adherent Dressing is a high-quality wound pad dressing that’s recommended for the treatment of injuries such as cuts, grazes and minor burns. This absorbent wound dressing is lightweight yet effective, and ideal for use underneath cotton bandages and first aid supports, helping to protect a wound from the risk of infection while healing or awaiting further medical treatment. Additionally, the sterile dressing can also be used in the treatment and protection of minor wounds in and around the eye area.\",\n    \"special_features\": [\n        {\n            \"feature\": \"Minimise wound trauma with a non-stick dressing\",\n            \"description\": \"All AeroPadTM dressing pads are designed with a special non-adherent film applied to each side to help protect healing wounds and minimise the risk of further damaging the area in or around the wound when changing the dressing. A bandage or some form of adhesive tape is required to effectively apply and hold the non-stick dressing to a healing wound.\"\n        },\n        {\n            \"feature\":\"SupaSorb technology for a premium absorbent dressing\",\n            \"description\": \" AeroPadTM non-adherent dressing pads are fitted with a premium absorbent inner material to aid in the treatment of weeping or bleeding wounds. Applying the absorbent dressing enables a healing wound to stay dry.\"\n        },\n        {\n            \"feature\":\"Each wound pad dressing is individually packed and sterilised\",\n            \"description\": \"The AeroPadTM non-adherent sterile dressing comes individually packaged to ensure that each dressing pad is kept clean and safe until needed. Applying a sterile wound dressing is key to keeping the wound clean and free from infection, allowing for proper and effective healing.\"\n        },\n        {\n            \"feature\":\"A comprehensive range of sizes for all needs\",\n            \"description\":\"AeroPadTM non-adherent sterile wound dressings come in a variety of sizes to suit all wound and injury requirements, including Non-Adherent Dressing 5x5cm, 7.5x5cm, 10×7.5cm, 10x10cm,10x20cm and Non-Adherent Eyepad 5×7.7cm. It’s recommended to keep a selection of AeroPadTM non-adherent dressings handy to be prepared to address any relevant accidents and injuries.\"\n        }\n    ],\n    \"precautions\": \"Non-adherent absorbent wound dressings should be changed daily, or more often, according to the condition of the wound. Seek medical advice immediately for all serious wounds and burns, and if redness or discomfort occurs, discontinue use and consult a physician or medical professional.\"\n}"
+      },
+      "metrics": null,
+      "request": null,
+      "parent_run_id": "6781ecf6-fb4b-48c1-86a4-878d842186ea",
+      "root_run_id": "6781ecf6-fb4b-48c1-86a4-878d842186ea",
+      "source_run_id": null,
+      "flow_id": "template_standard_flow",
+      "start_time": "2024-03-18T05:22:04.439850Z",
+      "end_time": "2024-03-18T05:23:01.300412Z",
+      "index": 0,
+      "api_calls": [
+        {
+          "name": "flow",
+          "node_name": "flow",
+          "type": "Flow",
+          "start_time": 1710692524.43985,
+          "end_time": 1710692581.300412,
+          "children": [
+            {
+              "name": "my_python_tool",
+              "type": "Tool",
+              "inputs": {
+                "url": "https://www.medisave.co.nz/collections/bandages-tape/products/aeropad-non-adherent-dressing-7-5-x-10cm-box-50"
+              },
+              "output": {
+                "markdown": "# \nAEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\n\n\n                    AEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\n                  \n\n\n\nThe AeroPadTM Non-Adherent Dressing is a high-quality wound pad dressing\nthat’s recommended for the treatment of injuries such as cuts, grazes and\nminor burns. This absorbent wound dressing is lightweight yet effective, and\nideal for use underneath cotton bandages and first aid supports, helping to\nprotect a wound from the risk of infection while healing or awaiting further\nmedical treatment. Additionally, the sterile dressing can also be used in the\ntreatment and protection of minor wounds in and around the eye area.\n**Minimise wound trauma with a non-stick dressing** All AeroPadTM dressing\npads are designed with a special non-adherent film applied to each side to\nhelp protect healing wounds and minimise the risk of further damaging the area\nin or around the wound when changing the dressing. A bandage or some form of\nadhesive tape is required to effectively apply and hold the non-stick dressing\nto a healing wound. **SupaSorb technology for a premium absorbent dressing**\nAeroPadTM non-adherent dressing pads are fitted with a premium absorbent inner\nmaterial to aid in the treatment of weeping or bleeding wounds. Applying the\nabsorbent dressing enables a healing wound to stay dry, which is paramount for\ntreatment, infection mitigation and proper recovery.  _Remember: absorbent\ndressings require regular changing to help keep the wound clean._ **Each wound\npad dressing is individually packed and sterilised** The AeroPadTM non-\nadherent sterile dressing comes individually packaged to ensure that each\ndressing pad is kept clean and safe until needed. Applying a sterile wound\ndressing is key to keeping the wound clean and free from infection, allowing\nfor proper and effective healing. **A comprehensive range of sizes for all\nneeds** AeroPadTM non-adherent sterile wound dressings come in a variety of\nsizes to suit all wound and injury requirements, including:  _AeroPad TM Non-\nAdherent Dressing_\n\n  * 5x5cm, 7.5x5cm, 10×7.5cm, 10x10cm,10x20cm\n\n_AeroPad TM Non-Adherent Eyepad_\n\n  * 5×7.7cm\n\nIt’s recommended to keep a selection of AeroPadTM non-adherent dressings handy\nto be prepared to address any relevant accidents and injuries. Absorbent\ndressings are typically the most common dressings used in the treatment of\nminor surface and eye injuries. **Contraindications and Precautions** Non-\nadherent absorbent wound dressings should be changed daily, or more often,\naccording to the condition of the wound. A leaky wound poses a greater risk of\ninfection and requires regular cleaning to manage effective healing. Seek\nmedical advice immediately for all serious wounds and burns, and if redness or\ndiscomfort occurs, discontinue use and consult a physician or medical\nprofessional\n\n"
+              },
+              "start_time": 1710692524.44348,
+              "end_time": 1710692525.392133,
+              "error": null,
+              "children": [],
+              "node_name": "getWebpage",
+              "parent_id": "",
+              "id": "92daceeb-564b-4d00-8dff-637ae6b2e442",
+              "system_metrics": {}
+            },
+            {
+              "name": "AzureOpenAI.chat",
+              "type": "Tool",
+              "inputs": {
+                "prompt": "{# Prompt is a jinja2 template that generates prompt for LLM #}\n\nsystem:\n\nYou are an AI assistant for Safety Culture that extracts product information from the content of a web page that has been converted to markdown format. Safety Culture is an online marketplace for selling safety products.\n\nuser:\n\nExtract the product information from the following product page that has been extracted as markdown and return it in JSON format.\n\n# Supersafe LS-1 Safety Helmet\n\n**Product ID:** HS12345  \n**Category:** Personal Protective Equipment  \n**Price:** $49.99  \n**Stock:** 100  \n\nA robust safety helmet with adjustable straps and a cushioned interior for comfort.\n\nColour is white and Size is Large. Batteries not required.\n\n## Manufacturer\n\n**Name:** Safety First  \n**Location:** United States  \n\n## Features\n\n- Shock Absorbent\n- Adjustable Straps\n- Cushioned Interior\n\n## Safety Standards\n\n- OSHA Compliant\n- ANSI Certified\n\nassistant:\n\n{\n    \"product_id\": \"HS12345\",\n    \"name\": \"Supersafe LS-1 Safety Helmet\",\n    \"description\": \"A robust safety helmet with adjustable straps and a cushioned interior for comfort.\",\n    \"category\": \"Personal Protective Equipment\",\n    \"price\": 49.99,\n    \"currency\": \"USD\",\n    \"stock\": 100,\n    \"attributes\": [\n        \"color\": \"White\",\n        \"size\": \"large\"\n    ]\n    \"manufacturer\": {\n        \"name\": \"Safety First\",\n        \"location\": \"United States\"\n    },\n    \"features\": [\n        \"Shock Absorbent\",\n        \"Adjustable Straps\",\n        \"Cushioned Interior\"\n    ],\n    \"safety_standards\": [\n        \"OSHA Compliant\",\n        \"ANSI Certified\"\n    ]\n}\n\nuser:\n\nExtract the product information from the following product page that has been extracted as markdown and return it in JSON format.\n\n{{markdown}}",
+                "deployment_name": "gpt-4",
+                "temperature": 1.0,
+                "top_p": 1.0,
+                "max_tokens": 2000,
+                "response_format": {
+                  "type": "text"
+                },
+                "presence_penalty": 0.0,
+                "frequency_penalty": 0.0,
+                "markdown": "# \nAEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\n\n\n                    AEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\n                  \n\n\n\nThe AeroPadTM Non-Adherent Dressing is a high-quality wound pad dressing\nthat’s recommended for the treatment of injuries such as cuts, grazes and\nminor burns. This absorbent wound dressing is lightweight yet effective, and\nideal for use underneath cotton bandages and first aid supports, helping to\nprotect a wound from the risk of infection while healing or awaiting further\nmedical treatment. Additionally, the sterile dressing can also be used in the\ntreatment and protection of minor wounds in and around the eye area.\n**Minimise wound trauma with a non-stick dressing** All AeroPadTM dressing\npads are designed with a special non-adherent film applied to each side to\nhelp protect healing wounds and minimise the risk of further damaging the area\nin or around the wound when changing the dressing. A bandage or some form of\nadhesive tape is required to effectively apply and hold the non-stick dressing\nto a healing wound. **SupaSorb technology for a premium absorbent dressing**\nAeroPadTM non-adherent dressing pads are fitted with a premium absorbent inner\nmaterial to aid in the treatment of weeping or bleeding wounds. Applying the\nabsorbent dressing enables a healing wound to stay dry, which is paramount for\ntreatment, infection mitigation and proper recovery.  _Remember: absorbent\ndressings require regular changing to help keep the wound clean._ **Each wound\npad dressing is individually packed and sterilised** The AeroPadTM non-\nadherent sterile dressing comes individually packaged to ensure that each\ndressing pad is kept clean and safe until needed. Applying a sterile wound\ndressing is key to keeping the wound clean and free from infection, allowing\nfor proper and effective healing. **A comprehensive range of sizes for all\nneeds** AeroPadTM non-adherent sterile wound dressings come in a variety of\nsizes to suit all wound and injury requirements, including:  _AeroPad TM Non-\nAdherent Dressing_\n\n  * 5x5cm, 7.5x5cm, 10×7.5cm, 10x10cm,10x20cm\n\n_AeroPad TM Non-Adherent Eyepad_\n\n  * 5×7.7cm\n\nIt’s recommended to keep a selection of AeroPadTM non-adherent dressings handy\nto be prepared to address any relevant accidents and injuries. Absorbent\ndressings are typically the most common dressings used in the treatment of\nminor surface and eye injuries. **Contraindications and Precautions** Non-\nadherent absorbent wound dressings should be changed daily, or more often,\naccording to the condition of the wound. A leaky wound poses a greater risk of\ninfection and requires regular cleaning to manage effective healing. Seek\nmedical advice immediately for all serious wounds and burns, and if redness or\ndiscomfort occurs, discontinue use and consult a physician or medical\nprofessional\n\n"
+              },
+              "output": "{\n    \"name\": \"AEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\",\n    \"description\": \"The AeroPadTM Non-Adherent Dressing is a high-quality wound pad dressing that’s recommended for the treatment of injuries such as cuts, grazes and minor burns. This absorbent wound dressing is lightweight yet effective, and ideal for use underneath cotton bandages and first aid supports, helping to protect a wound from the risk of infection while healing or awaiting further medical treatment. Additionally, the sterile dressing can also be used in the treatment and protection of minor wounds in and around the eye area.\",\n    \"special_features\": [\n        {\n            \"feature\": \"Minimise wound trauma with a non-stick dressing\",\n            \"description\": \"All AeroPadTM dressing pads are designed with a special non-adherent film applied to each side to help protect healing wounds and minimise the risk of further damaging the area in or around the wound when changing the dressing. A bandage or some form of adhesive tape is required to effectively apply and hold the non-stick dressing to a healing wound.\"\n        },\n        {\n            \"feature\":\"SupaSorb technology for a premium absorbent dressing\",\n            \"description\": \" AeroPadTM non-adherent dressing pads are fitted with a premium absorbent inner material to aid in the treatment of weeping or bleeding wounds. Applying the absorbent dressing enables a healing wound to stay dry.\"\n        },\n        {\n            \"feature\":\"Each wound pad dressing is individually packed and sterilised\",\n            \"description\": \"The AeroPadTM non-adherent sterile dressing comes individually packaged to ensure that each dressing pad is kept clean and safe until needed. Applying a sterile wound dressing is key to keeping the wound clean and free from infection, allowing for proper and effective healing.\"\n        },\n        {\n            \"feature\":\"A comprehensive range of sizes for all needs\",\n            \"description\":\"AeroPadTM non-adherent sterile wound dressings come in a variety of sizes to suit all wound and injury requirements, including Non-Adherent Dressing 5x5cm, 7.5x5cm, 10×7.5cm, 10x10cm,10x20cm and Non-Adherent Eyepad 5×7.7cm. It’s recommended to keep a selection of AeroPadTM non-adherent dressings handy to be prepared to address any relevant accidents and injuries.\"\n        }\n    ],\n    \"precautions\": \"Non-adherent absorbent wound dressings should be changed daily, or more often, according to the condition of the wound. Seek medical advice immediately for all serious wounds and burns, and if redness or discomfort occurs, discontinue use and consult a physician or medical professional.\"\n}",
+              "start_time": 1710692525.395231,
+              "end_time": 1710692581.291902,
+              "error": null,
+              "children": [
+                {
+                  "name": "openai.resources.chat.completions.Completions.create",
+                  "type": "LLM",
+                  "inputs": {
+                    "model": "gpt-4",
+                    "messages": [
+                      {
+                        "role": "system",
+                        "content": "You are an AI assistant for Safety Culture that extracts product information from the content of a web page that has been converted to markdown format. Safety Culture is an online marketplace for selling safety products."
+                      },
+                      {
+                        "role": "user",
+                        "content": "Extract the product information from the following product page that has been extracted as markdown and return it in JSON format.\n\n# Supersafe LS-1 Safety Helmet\n\n**Product ID:** HS12345  \n**Category:** Personal Protective Equipment  \n**Price:** $49.99  \n**Stock:** 100  \n\nA robust safety helmet with adjustable straps and a cushioned interior for comfort.\n\nColour is white and Size is Large. Batteries not required.\n\n## Manufacturer\n\n**Name:** Safety First  \n**Location:** United States  \n\n## Features\n\n- Shock Absorbent\n- Adjustable Straps\n- Cushioned Interior\n\n## Safety Standards\n\n- OSHA Compliant\n- ANSI Certified"
+                      },
+                      {
+                        "role": "assistant",
+                        "content": "{\n    \"product_id\": \"HS12345\",\n    \"name\": \"Supersafe LS-1 Safety Helmet\",\n    \"description\": \"A robust safety helmet with adjustable straps and a cushioned interior for comfort.\",\n    \"category\": \"Personal Protective Equipment\",\n    \"price\": 49.99,\n    \"currency\": \"USD\",\n    \"stock\": 100,\n    \"attributes\": [\n        \"color\": \"White\",\n        \"size\": \"large\"\n    ]\n    \"manufacturer\": {\n        \"name\": \"Safety First\",\n        \"location\": \"United States\"\n    },\n    \"features\": [\n        \"Shock Absorbent\",\n        \"Adjustable Straps\",\n        \"Cushioned Interior\"\n    ],\n    \"safety_standards\": [\n        \"OSHA Compliant\",\n        \"ANSI Certified\"\n    ]\n}"
+                      },
+                      {
+                        "role": "user",
+                        "content": "Extract the product information from the following product page that has been extracted as markdown and return it in JSON format.\n\n# \nAEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\n\n\n                    AEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\n                  \n\n\n\nThe AeroPadTM Non-Adherent Dressing is a high-quality wound pad dressing\nthat’s recommended for the treatment of injuries such as cuts, grazes and\nminor burns. This absorbent wound dressing is lightweight yet effective, and\nideal for use underneath cotton bandages and first aid supports, helping to\nprotect a wound from the risk of infection while healing or awaiting further\nmedical treatment. Additionally, the sterile dressing can also be used in the\ntreatment and protection of minor wounds in and around the eye area.\n**Minimise wound trauma with a non-stick dressing** All AeroPadTM dressing\npads are designed with a special non-adherent film applied to each side to\nhelp protect healing wounds and minimise the risk of further damaging the area\nin or around the wound when changing the dressing. A bandage or some form of\nadhesive tape is required to effectively apply and hold the non-stick dressing\nto a healing wound. **SupaSorb technology for a premium absorbent dressing**\nAeroPadTM non-adherent dressing pads are fitted with a premium absorbent inner\nmaterial to aid in the treatment of weeping or bleeding wounds. Applying the\nabsorbent dressing enables a healing wound to stay dry, which is paramount for\ntreatment, infection mitigation and proper recovery.  _Remember: absorbent\ndressings require regular changing to help keep the wound clean._ **Each wound\npad dressing is individually packed and sterilised** The AeroPadTM non-\nadherent sterile dressing comes individually packaged to ensure that each\ndressing pad is kept clean and safe until needed. Applying a sterile wound\ndressing is key to keeping the wound clean and free from infection, allowing\nfor proper and effective healing. **A comprehensive range of sizes for all\nneeds** AeroPadTM non-adherent sterile wound dressings come in a variety of\nsizes to suit all wound and injury requirements, including:  _AeroPad TM Non-\nAdherent Dressing_\n\n  * 5x5cm, 7.5x5cm, 10×7.5cm, 10x10cm,10x20cm\n\n_AeroPad TM Non-Adherent Eyepad_\n\n  * 5×7.7cm\n\nIt’s recommended to keep a selection of AeroPadTM non-adherent dressings handy\nto be prepared to address any relevant accidents and injuries. Absorbent\ndressings are typically the most common dressings used in the treatment of\nminor surface and eye injuries. **Contraindications and Precautions** Non-\nadherent absorbent wound dressings should be changed daily, or more often,\naccording to the condition of the wound. A leaky wound poses a greater risk of\ninfection and requires regular cleaning to manage effective healing. Seek\nmedical advice immediately for all serious wounds and burns, and if redness or\ndiscomfort occurs, discontinue use and consult a physician or medical\nprofessional"
+                      }
+                    ],
+                    "temperature": 1.0,
+                    "top_p": 1.0,
+                    "n": 1,
+                    "stream": false,
+                    "stop": null,
+                    "max_tokens": 2000,
+                    "presence_penalty": 0.0,
+                    "frequency_penalty": 0.0,
+                    "logit_bias": {},
+                    "user": "",
+                    "response_format": {
+                      "type": "text"
+                    }
+                  },
+                  "output": {
+                    "id": "chatcmpl-93zjhS5H6anJpvMDTnsrgxjDzbyCx",
+                    "choices": [
+                      {
+                        "finish_reason": "stop",
+                        "index": 0,
+                        "logprobs": null,
+                        "message": {
+                          "content": "{\n    \"name\": \"AEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\",\n    \"description\": \"The AeroPadTM Non-Adherent Dressing is a high-quality wound pad dressing that’s recommended for the treatment of injuries such as cuts, grazes and minor burns. This absorbent wound dressing is lightweight yet effective, and ideal for use underneath cotton bandages and first aid supports, helping to protect a wound from the risk of infection while healing or awaiting further medical treatment. Additionally, the sterile dressing can also be used in the treatment and protection of minor wounds in and around the eye area.\",\n    \"special_features\": [\n        {\n            \"feature\": \"Minimise wound trauma with a non-stick dressing\",\n            \"description\": \"All AeroPadTM dressing pads are designed with a special non-adherent film applied to each side to help protect healing wounds and minimise the risk of further damaging the area in or around the wound when changing the dressing. A bandage or some form of adhesive tape is required to effectively apply and hold the non-stick dressing to a healing wound.\"\n        },\n        {\n            \"feature\":\"SupaSorb technology for a premium absorbent dressing\",\n            \"description\": \" AeroPadTM non-adherent dressing pads are fitted with a premium absorbent inner material to aid in the treatment of weeping or bleeding wounds. Applying the absorbent dressing enables a healing wound to stay dry.\"\n        },\n        {\n            \"feature\":\"Each wound pad dressing is individually packed and sterilised\",\n            \"description\": \"The AeroPadTM non-adherent sterile dressing comes individually packaged to ensure that each dressing pad is kept clean and safe until needed. Applying a sterile wound dressing is key to keeping the wound clean and free from infection, allowing for proper and effective healing.\"\n        },\n        {\n            \"feature\":\"A comprehensive range of sizes for all needs\",\n            \"description\":\"AeroPadTM non-adherent sterile wound dressings come in a variety of sizes to suit all wound and injury requirements, including Non-Adherent Dressing 5x5cm, 7.5x5cm, 10×7.5cm, 10x10cm,10x20cm and Non-Adherent Eyepad 5×7.7cm. It’s recommended to keep a selection of AeroPadTM non-adherent dressings handy to be prepared to address any relevant accidents and injuries.\"\n        }\n    ],\n    \"precautions\": \"Non-adherent absorbent wound dressings should be changed daily, or more often, according to the condition of the wound. Seek medical advice immediately for all serious wounds and burns, and if redness or discomfort occurs, discontinue use and consult a physician or medical professional.\"\n}",
+                          "role": "assistant",
+                          "function_call": null,
+                          "tool_calls": null
+                        },
+                        "content_filter_results": {
+                          "hate": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "self_harm": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "sexual": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "violence": {
+                            "filtered": false,
+                            "severity": "safe"
+                          }
+                        }
+                      }
+                    ],
+                    "created": 1710739325,
+                    "model": "gpt-4",
+                    "object": "chat.completion",
+                    "system_fingerprint": null,
+                    "usage": {
+                      "completion_tokens": 568,
+                      "prompt_tokens": 1045,
+                      "total_tokens": 1613
+                    },
+                    "prompt_filter_results": [
+                      {
+                        "prompt_index": 0,
+                        "content_filter_results": {
+                          "hate": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "self_harm": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "sexual": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "violence": {
+                            "filtered": false,
+                            "severity": "safe"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "start_time": 1710692525.398256,
+                  "end_time": 1710692581.291902,
+                  "error": null,
+                  "children": [],
+                  "node_name": null,
+                  "parent_id": "8fc73199-c4f8-4b23-a65b-1d83d0d5714c",
+                  "id": "c5860f49-9e47-47ba-811a-53fbc4f96979",
+                  "system_metrics": {
+                    "completion_tokens": 568,
+                    "prompt_tokens": 1045,
+                    "total_tokens": 1613
+                  }
+                }
+              ],
+              "node_name": "extractProduct",
+              "parent_id": "",
+              "id": "8fc73199-c4f8-4b23-a65b-1d83d0d5714c",
+              "system_metrics": {
+                "completion_tokens": 568,
+                "prompt_tokens": 1045,
+                "total_tokens": 1613
+              }
+            },
+            {
+              "name": "echo",
+              "type": "Tool",
+              "inputs": {
+                "product": "{\n    \"name\": \"AEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\",\n    \"description\": \"The AeroPadTM Non-Adherent Dressing is a high-quality wound pad dressing that’s recommended for the treatment of injuries such as cuts, grazes and minor burns. This absorbent wound dressing is lightweight yet effective, and ideal for use underneath cotton bandages and first aid supports, helping to protect a wound from the risk of infection while healing or awaiting further medical treatment. Additionally, the sterile dressing can also be used in the treatment and protection of minor wounds in and around the eye area.\",\n    \"special_features\": [\n        {\n            \"feature\": \"Minimise wound trauma with a non-stick dressing\",\n            \"description\": \"All AeroPadTM dressing pads are designed with a special non-adherent film applied to each side to help protect healing wounds and minimise the risk of further damaging the area in or around the wound when changing the dressing. A bandage or some form of adhesive tape is required to effectively apply and hold the non-stick dressing to a healing wound.\"\n        },\n        {\n            \"feature\":\"SupaSorb technology for a premium absorbent dressing\",\n            \"description\": \" AeroPadTM non-adherent dressing pads are fitted with a premium absorbent inner material to aid in the treatment of weeping or bleeding wounds. Applying the absorbent dressing enables a healing wound to stay dry.\"\n        },\n        {\n            \"feature\":\"Each wound pad dressing is individually packed and sterilised\",\n            \"description\": \"The AeroPadTM non-adherent sterile dressing comes individually packaged to ensure that each dressing pad is kept clean and safe until needed. Applying a sterile wound dressing is key to keeping the wound clean and free from infection, allowing for proper and effective healing.\"\n        },\n        {\n            \"feature\":\"A comprehensive range of sizes for all needs\",\n            \"description\":\"AeroPadTM non-adherent sterile wound dressings come in a variety of sizes to suit all wound and injury requirements, including Non-Adherent Dressing 5x5cm, 7.5x5cm, 10×7.5cm, 10x10cm,10x20cm and Non-Adherent Eyepad 5×7.7cm. It’s recommended to keep a selection of AeroPadTM non-adherent dressings handy to be prepared to address any relevant accidents and injuries.\"\n        }\n    ],\n    \"precautions\": \"Non-adherent absorbent wound dressings should be changed daily, or more often, according to the condition of the wound. Seek medical advice immediately for all serious wounds and burns, and if redness or discomfort occurs, discontinue use and consult a physician or medical professional.\"\n}"
+              },
+              "output": "{\n    \"name\": \"AEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\",\n    \"description\": \"The AeroPadTM Non-Adherent Dressing is a high-quality wound pad dressing that’s recommended for the treatment of injuries such as cuts, grazes and minor burns. This absorbent wound dressing is lightweight yet effective, and ideal for use underneath cotton bandages and first aid supports, helping to protect a wound from the risk of infection while healing or awaiting further medical treatment. Additionally, the sterile dressing can also be used in the treatment and protection of minor wounds in and around the eye area.\",\n    \"special_features\": [\n        {\n            \"feature\": \"Minimise wound trauma with a non-stick dressing\",\n            \"description\": \"All AeroPadTM dressing pads are designed with a special non-adherent film applied to each side to help protect healing wounds and minimise the risk of further damaging the area in or around the wound when changing the dressing. A bandage or some form of adhesive tape is required to effectively apply and hold the non-stick dressing to a healing wound.\"\n        },\n        {\n            \"feature\":\"SupaSorb technology for a premium absorbent dressing\",\n            \"description\": \" AeroPadTM non-adherent dressing pads are fitted with a premium absorbent inner material to aid in the treatment of weeping or bleeding wounds. Applying the absorbent dressing enables a healing wound to stay dry.\"\n        },\n        {\n            \"feature\":\"Each wound pad dressing is individually packed and sterilised\",\n            \"description\": \"The AeroPadTM non-adherent sterile dressing comes individually packaged to ensure that each dressing pad is kept clean and safe until needed. Applying a sterile wound dressing is key to keeping the wound clean and free from infection, allowing for proper and effective healing.\"\n        },\n        {\n            \"feature\":\"A comprehensive range of sizes for all needs\",\n            \"description\":\"AeroPadTM non-adherent sterile wound dressings come in a variety of sizes to suit all wound and injury requirements, including Non-Adherent Dressing 5x5cm, 7.5x5cm, 10×7.5cm, 10x10cm,10x20cm and Non-Adherent Eyepad 5×7.7cm. It’s recommended to keep a selection of AeroPadTM non-adherent dressings handy to be prepared to address any relevant accidents and injuries.\"\n        }\n    ],\n    \"precautions\": \"Non-adherent absorbent wound dressings should be changed daily, or more often, according to the condition of the wound. Seek medical advice immediately for all serious wounds and burns, and if redness or discomfort occurs, discontinue use and consult a physician or medical professional.\"\n}",
+              "start_time": 1710692581.298424,
+              "end_time": 1710692581.299423,
+              "error": null,
+              "children": [],
+              "node_name": "echo",
+              "parent_id": "",
+              "id": "9a1bcb17-69a3-4151-99d0-9a834e8075fb",
+              "system_metrics": {}
+            }
+          ],
+          "system_metrics": {
+            "duration": 56.860562,
+            "prompt_tokens": 1045,
+            "completion_tokens": 568,
+            "total_tokens": 1613
+          },
+          "inputs": {
+            "url": "https://www.medisave.co.nz/collections/bandages-tape/products/aeropad-non-adherent-dressing-7-5-x-10cm-box-50"
+          },
+          "output": {
+            "product_json": "{\n    \"name\": \"AEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\",\n    \"description\": \"The AeroPadTM Non-Adherent Dressing is a high-quality wound pad dressing that’s recommended for the treatment of injuries such as cuts, grazes and minor burns. This absorbent wound dressing is lightweight yet effective, and ideal for use underneath cotton bandages and first aid supports, helping to protect a wound from the risk of infection while healing or awaiting further medical treatment. Additionally, the sterile dressing can also be used in the treatment and protection of minor wounds in and around the eye area.\",\n    \"special_features\": [\n        {\n            \"feature\": \"Minimise wound trauma with a non-stick dressing\",\n            \"description\": \"All AeroPadTM dressing pads are designed with a special non-adherent film applied to each side to help protect healing wounds and minimise the risk of further damaging the area in or around the wound when changing the dressing. A bandage or some form of adhesive tape is required to effectively apply and hold the non-stick dressing to a healing wound.\"\n        },\n        {\n            \"feature\":\"SupaSorb technology for a premium absorbent dressing\",\n            \"description\": \" AeroPadTM non-adherent dressing pads are fitted with a premium absorbent inner material to aid in the treatment of weeping or bleeding wounds. Applying the absorbent dressing enables a healing wound to stay dry.\"\n        },\n        {\n            \"feature\":\"Each wound pad dressing is individually packed and sterilised\",\n            \"description\": \"The AeroPadTM non-adherent sterile dressing comes individually packaged to ensure that each dressing pad is kept clean and safe until needed. Applying a sterile wound dressing is key to keeping the wound clean and free from infection, allowing for proper and effective healing.\"\n        },\n        {\n            \"feature\":\"A comprehensive range of sizes for all needs\",\n            \"description\":\"AeroPadTM non-adherent sterile wound dressings come in a variety of sizes to suit all wound and injury requirements, including Non-Adherent Dressing 5x5cm, 7.5x5cm, 10×7.5cm, 10x10cm,10x20cm and Non-Adherent Eyepad 5×7.7cm. It’s recommended to keep a selection of AeroPadTM non-adherent dressings handy to be prepared to address any relevant accidents and injuries.\"\n        }\n    ],\n    \"precautions\": \"Non-adherent absorbent wound dressings should be changed daily, or more often, according to the condition of the wound. Seek medical advice immediately for all serious wounds and burns, and if redness or discomfort occurs, discontinue use and consult a physician or medical professional.\"\n}"
+          },
+          "error": null
+        }
+      ],
+      "variant_id": "",
+      "name": "",
+      "description": "",
+      "tags": null,
+      "system_metrics": {
+        "duration": 56.860562,
+        "prompt_tokens": 1045,
+        "completion_tokens": 568,
+        "total_tokens": 1613
+      },
+      "result": {
+        "product_json": "{\n    \"name\": \"AEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\",\n    \"description\": \"The AeroPadTM Non-Adherent Dressing is a high-quality wound pad dressing that’s recommended for the treatment of injuries such as cuts, grazes and minor burns. This absorbent wound dressing is lightweight yet effective, and ideal for use underneath cotton bandages and first aid supports, helping to protect a wound from the risk of infection while healing or awaiting further medical treatment. Additionally, the sterile dressing can also be used in the treatment and protection of minor wounds in and around the eye area.\",\n    \"special_features\": [\n        {\n            \"feature\": \"Minimise wound trauma with a non-stick dressing\",\n            \"description\": \"All AeroPadTM dressing pads are designed with a special non-adherent film applied to each side to help protect healing wounds and minimise the risk of further damaging the area in or around the wound when changing the dressing. A bandage or some form of adhesive tape is required to effectively apply and hold the non-stick dressing to a healing wound.\"\n        },\n        {\n            \"feature\":\"SupaSorb technology for a premium absorbent dressing\",\n            \"description\": \" AeroPadTM non-adherent dressing pads are fitted with a premium absorbent inner material to aid in the treatment of weeping or bleeding wounds. Applying the absorbent dressing enables a healing wound to stay dry.\"\n        },\n        {\n            \"feature\":\"Each wound pad dressing is individually packed and sterilised\",\n            \"description\": \"The AeroPadTM non-adherent sterile dressing comes individually packaged to ensure that each dressing pad is kept clean and safe until needed. Applying a sterile wound dressing is key to keeping the wound clean and free from infection, allowing for proper and effective healing.\"\n        },\n        {\n            \"feature\":\"A comprehensive range of sizes for all needs\",\n            \"description\":\"AeroPadTM non-adherent sterile wound dressings come in a variety of sizes to suit all wound and injury requirements, including Non-Adherent Dressing 5x5cm, 7.5x5cm, 10×7.5cm, 10x10cm,10x20cm and Non-Adherent Eyepad 5×7.7cm. It’s recommended to keep a selection of AeroPadTM non-adherent dressings handy to be prepared to address any relevant accidents and injuries.\"\n        }\n    ],\n    \"precautions\": \"Non-adherent absorbent wound dressings should be changed daily, or more often, according to the condition of the wound. Seek medical advice immediately for all serious wounds and burns, and if redness or discomfort occurs, discontinue use and consult a physician or medical professional.\"\n}"
+      },
+      "upload_metrics": false
+    }
+  ],
+  "node_runs": [
+    {
+      "node": "getWebpage",
+      "flow_run_id": "6781ecf6-fb4b-48c1-86a4-878d842186ea",
+      "run_id": "6781ecf6-fb4b-48c1-86a4-878d842186ea_getWebpage_0",
+      "status": "Completed",
+      "inputs": {
+        "url": "https://www.medisave.co.nz/collections/bandages-tape/products/aeropad-non-adherent-dressing-7-5-x-10cm-box-50"
+      },
+      "output": {
+        "markdown": "# \nAEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\n\n\n                    AEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\n                  \n\n\n\nThe AeroPadTM Non-Adherent Dressing is a high-quality wound pad dressing\nthat’s recommended for the treatment of injuries such as cuts, grazes and\nminor burns. This absorbent wound dressing is lightweight yet effective, and\nideal for use underneath cotton bandages and first aid supports, helping to\nprotect a wound from the risk of infection while healing or awaiting further\nmedical treatment. Additionally, the sterile dressing can also be used in the\ntreatment and protection of minor wounds in and around the eye area.\n**Minimise wound trauma with a non-stick dressing** All AeroPadTM dressing\npads are designed with a special non-adherent film applied to each side to\nhelp protect healing wounds and minimise the risk of further damaging the area\nin or around the wound when changing the dressing. A bandage or some form of\nadhesive tape is required to effectively apply and hold the non-stick dressing\nto a healing wound. **SupaSorb technology for a premium absorbent dressing**\nAeroPadTM non-adherent dressing pads are fitted with a premium absorbent inner\nmaterial to aid in the treatment of weeping or bleeding wounds. Applying the\nabsorbent dressing enables a healing wound to stay dry, which is paramount for\ntreatment, infection mitigation and proper recovery.  _Remember: absorbent\ndressings require regular changing to help keep the wound clean._ **Each wound\npad dressing is individually packed and sterilised** The AeroPadTM non-\nadherent sterile dressing comes individually packaged to ensure that each\ndressing pad is kept clean and safe until needed. Applying a sterile wound\ndressing is key to keeping the wound clean and free from infection, allowing\nfor proper and effective healing. **A comprehensive range of sizes for all\nneeds** AeroPadTM non-adherent sterile wound dressings come in a variety of\nsizes to suit all wound and injury requirements, including:  _AeroPad TM Non-\nAdherent Dressing_\n\n  * 5x5cm, 7.5x5cm, 10×7.5cm, 10x10cm,10x20cm\n\n_AeroPad TM Non-Adherent Eyepad_\n\n  * 5×7.7cm\n\nIt’s recommended to keep a selection of AeroPadTM non-adherent dressings handy\nto be prepared to address any relevant accidents and injuries. Absorbent\ndressings are typically the most common dressings used in the treatment of\nminor surface and eye injuries. **Contraindications and Precautions** Non-\nadherent absorbent wound dressings should be changed daily, or more often,\naccording to the condition of the wound. A leaky wound poses a greater risk of\ninfection and requires regular cleaning to manage effective healing. Seek\nmedical advice immediately for all serious wounds and burns, and if redness or\ndiscomfort occurs, discontinue use and consult a physician or medical\nprofessional\n\n"
+      },
+      "metrics": null,
+      "error": null,
+      "parent_run_id": "6781ecf6-fb4b-48c1-86a4-878d842186ea_0",
+      "start_time": "2024-03-18T05:22:04.442487Z",
+      "end_time": "2024-03-18T05:22:05.393152Z",
+      "index": 0,
+      "api_calls": [
+        {
+          "name": "my_python_tool",
+          "type": "Tool",
+          "inputs": {
+            "url": "https://www.medisave.co.nz/collections/bandages-tape/products/aeropad-non-adherent-dressing-7-5-x-10cm-box-50"
+          },
+          "output": {
+            "markdown": "# \nAEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\n\n\n                    AEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\n                  \n\n\n\nThe AeroPadTM Non-Adherent Dressing is a high-quality wound pad dressing\nthat’s recommended for the treatment of injuries such as cuts, grazes and\nminor burns. This absorbent wound dressing is lightweight yet effective, and\nideal for use underneath cotton bandages and first aid supports, helping to\nprotect a wound from the risk of infection while healing or awaiting further\nmedical treatment. Additionally, the sterile dressing can also be used in the\ntreatment and protection of minor wounds in and around the eye area.\n**Minimise wound trauma with a non-stick dressing** All AeroPadTM dressing\npads are designed with a special non-adherent film applied to each side to\nhelp protect healing wounds and minimise the risk of further damaging the area\nin or around the wound when changing the dressing. A bandage or some form of\nadhesive tape is required to effectively apply and hold the non-stick dressing\nto a healing wound. **SupaSorb technology for a premium absorbent dressing**\nAeroPadTM non-adherent dressing pads are fitted with a premium absorbent inner\nmaterial to aid in the treatment of weeping or bleeding wounds. Applying the\nabsorbent dressing enables a healing wound to stay dry, which is paramount for\ntreatment, infection mitigation and proper recovery.  _Remember: absorbent\ndressings require regular changing to help keep the wound clean._ **Each wound\npad dressing is individually packed and sterilised** The AeroPadTM non-\nadherent sterile dressing comes individually packaged to ensure that each\ndressing pad is kept clean and safe until needed. Applying a sterile wound\ndressing is key to keeping the wound clean and free from infection, allowing\nfor proper and effective healing. **A comprehensive range of sizes for all\nneeds** AeroPadTM non-adherent sterile wound dressings come in a variety of\nsizes to suit all wound and injury requirements, including:  _AeroPad TM Non-\nAdherent Dressing_\n\n  * 5x5cm, 7.5x5cm, 10×7.5cm, 10x10cm,10x20cm\n\n_AeroPad TM Non-Adherent Eyepad_\n\n  * 5×7.7cm\n\nIt’s recommended to keep a selection of AeroPadTM non-adherent dressings handy\nto be prepared to address any relevant accidents and injuries. Absorbent\ndressings are typically the most common dressings used in the treatment of\nminor surface and eye injuries. **Contraindications and Precautions** Non-\nadherent absorbent wound dressings should be changed daily, or more often,\naccording to the condition of the wound. A leaky wound poses a greater risk of\ninfection and requires regular cleaning to manage effective healing. Seek\nmedical advice immediately for all serious wounds and burns, and if redness or\ndiscomfort occurs, discontinue use and consult a physician or medical\nprofessional\n\n"
+          },
+          "start_time": 1710692524.44348,
+          "end_time": 1710692525.392133,
+          "error": null,
+          "children": [],
+          "node_name": "getWebpage",
+          "parent_id": "",
+          "id": "92daceeb-564b-4d00-8dff-637ae6b2e442",
+          "system_metrics": {}
+        }
+      ],
+      "variant_id": "",
+      "cached_run_id": null,
+      "cached_flow_run_id": null,
+      "logs": {
+        "stdout": "",
+        "stderr": ""
+      },
+      "system_metrics": {
+        "duration": 0.950665
+      },
+      "result": {
+        "markdown": "# \nAEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\n\n\n                    AEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\n                  \n\n\n\nThe AeroPadTM Non-Adherent Dressing is a high-quality wound pad dressing\nthat’s recommended for the treatment of injuries such as cuts, grazes and\nminor burns. This absorbent wound dressing is lightweight yet effective, and\nideal for use underneath cotton bandages and first aid supports, helping to\nprotect a wound from the risk of infection while healing or awaiting further\nmedical treatment. Additionally, the sterile dressing can also be used in the\ntreatment and protection of minor wounds in and around the eye area.\n**Minimise wound trauma with a non-stick dressing** All AeroPadTM dressing\npads are designed with a special non-adherent film applied to each side to\nhelp protect healing wounds and minimise the risk of further damaging the area\nin or around the wound when changing the dressing. A bandage or some form of\nadhesive tape is required to effectively apply and hold the non-stick dressing\nto a healing wound. **SupaSorb technology for a premium absorbent dressing**\nAeroPadTM non-adherent dressing pads are fitted with a premium absorbent inner\nmaterial to aid in the treatment of weeping or bleeding wounds. Applying the\nabsorbent dressing enables a healing wound to stay dry, which is paramount for\ntreatment, infection mitigation and proper recovery.  _Remember: absorbent\ndressings require regular changing to help keep the wound clean._ **Each wound\npad dressing is individually packed and sterilised** The AeroPadTM non-\nadherent sterile dressing comes individually packaged to ensure that each\ndressing pad is kept clean and safe until needed. Applying a sterile wound\ndressing is key to keeping the wound clean and free from infection, allowing\nfor proper and effective healing. **A comprehensive range of sizes for all\nneeds** AeroPadTM non-adherent sterile wound dressings come in a variety of\nsizes to suit all wound and injury requirements, including:  _AeroPad TM Non-\nAdherent Dressing_\n\n  * 5x5cm, 7.5x5cm, 10×7.5cm, 10x10cm,10x20cm\n\n_AeroPad TM Non-Adherent Eyepad_\n\n  * 5×7.7cm\n\nIt’s recommended to keep a selection of AeroPadTM non-adherent dressings handy\nto be prepared to address any relevant accidents and injuries. Absorbent\ndressings are typically the most common dressings used in the treatment of\nminor surface and eye injuries. **Contraindications and Precautions** Non-\nadherent absorbent wound dressings should be changed daily, or more often,\naccording to the condition of the wound. A leaky wound poses a greater risk of\ninfection and requires regular cleaning to manage effective healing. Seek\nmedical advice immediately for all serious wounds and burns, and if redness or\ndiscomfort occurs, discontinue use and consult a physician or medical\nprofessional\n\n"
+      }
+    },
+    {
+      "node": "extractProduct",
+      "flow_run_id": "6781ecf6-fb4b-48c1-86a4-878d842186ea",
+      "run_id": "6781ecf6-fb4b-48c1-86a4-878d842186ea_extractProduct_0",
+      "status": "Completed",
+      "inputs": {
+        "deployment_name": "gpt-4",
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "max_tokens": 2000,
+        "response_format": {
+          "type": "text"
+        },
+        "presence_penalty": 0.0,
+        "frequency_penalty": 0.0,
+        "markdown": "# \nAEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\n\n\n                    AEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\n                  \n\n\n\nThe AeroPadTM Non-Adherent Dressing is a high-quality wound pad dressing\nthat’s recommended for the treatment of injuries such as cuts, grazes and\nminor burns. This absorbent wound dressing is lightweight yet effective, and\nideal for use underneath cotton bandages and first aid supports, helping to\nprotect a wound from the risk of infection while healing or awaiting further\nmedical treatment. Additionally, the sterile dressing can also be used in the\ntreatment and protection of minor wounds in and around the eye area.\n**Minimise wound trauma with a non-stick dressing** All AeroPadTM dressing\npads are designed with a special non-adherent film applied to each side to\nhelp protect healing wounds and minimise the risk of further damaging the area\nin or around the wound when changing the dressing. A bandage or some form of\nadhesive tape is required to effectively apply and hold the non-stick dressing\nto a healing wound. **SupaSorb technology for a premium absorbent dressing**\nAeroPadTM non-adherent dressing pads are fitted with a premium absorbent inner\nmaterial to aid in the treatment of weeping or bleeding wounds. Applying the\nabsorbent dressing enables a healing wound to stay dry, which is paramount for\ntreatment, infection mitigation and proper recovery.  _Remember: absorbent\ndressings require regular changing to help keep the wound clean._ **Each wound\npad dressing is individually packed and sterilised** The AeroPadTM non-\nadherent sterile dressing comes individually packaged to ensure that each\ndressing pad is kept clean and safe until needed. Applying a sterile wound\ndressing is key to keeping the wound clean and free from infection, allowing\nfor proper and effective healing. **A comprehensive range of sizes for all\nneeds** AeroPadTM non-adherent sterile wound dressings come in a variety of\nsizes to suit all wound and injury requirements, including:  _AeroPad TM Non-\nAdherent Dressing_\n\n  * 5x5cm, 7.5x5cm, 10×7.5cm, 10x10cm,10x20cm\n\n_AeroPad TM Non-Adherent Eyepad_\n\n  * 5×7.7cm\n\nIt’s recommended to keep a selection of AeroPadTM non-adherent dressings handy\nto be prepared to address any relevant accidents and injuries. Absorbent\ndressings are typically the most common dressings used in the treatment of\nminor surface and eye injuries. **Contraindications and Precautions** Non-\nadherent absorbent wound dressings should be changed daily, or more often,\naccording to the condition of the wound. A leaky wound poses a greater risk of\ninfection and requires regular cleaning to manage effective healing. Seek\nmedical advice immediately for all serious wounds and burns, and if redness or\ndiscomfort occurs, discontinue use and consult a physician or medical\nprofessional\n\n"
+      },
+      "output": "{\n    \"name\": \"AEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\",\n    \"description\": \"The AeroPadTM Non-Adherent Dressing is a high-quality wound pad dressing that’s recommended for the treatment of injuries such as cuts, grazes and minor burns. This absorbent wound dressing is lightweight yet effective, and ideal for use underneath cotton bandages and first aid supports, helping to protect a wound from the risk of infection while healing or awaiting further medical treatment. Additionally, the sterile dressing can also be used in the treatment and protection of minor wounds in and around the eye area.\",\n    \"special_features\": [\n        {\n            \"feature\": \"Minimise wound trauma with a non-stick dressing\",\n            \"description\": \"All AeroPadTM dressing pads are designed with a special non-adherent film applied to each side to help protect healing wounds and minimise the risk of further damaging the area in or around the wound when changing the dressing. A bandage or some form of adhesive tape is required to effectively apply and hold the non-stick dressing to a healing wound.\"\n        },\n        {\n            \"feature\":\"SupaSorb technology for a premium absorbent dressing\",\n            \"description\": \" AeroPadTM non-adherent dressing pads are fitted with a premium absorbent inner material to aid in the treatment of weeping or bleeding wounds. Applying the absorbent dressing enables a healing wound to stay dry.\"\n        },\n        {\n            \"feature\":\"Each wound pad dressing is individually packed and sterilised\",\n            \"description\": \"The AeroPadTM non-adherent sterile dressing comes individually packaged to ensure that each dressing pad is kept clean and safe until needed. Applying a sterile wound dressing is key to keeping the wound clean and free from infection, allowing for proper and effective healing.\"\n        },\n        {\n            \"feature\":\"A comprehensive range of sizes for all needs\",\n            \"description\":\"AeroPadTM non-adherent sterile wound dressings come in a variety of sizes to suit all wound and injury requirements, including Non-Adherent Dressing 5x5cm, 7.5x5cm, 10×7.5cm, 10x10cm,10x20cm and Non-Adherent Eyepad 5×7.7cm. It’s recommended to keep a selection of AeroPadTM non-adherent dressings handy to be prepared to address any relevant accidents and injuries.\"\n        }\n    ],\n    \"precautions\": \"Non-adherent absorbent wound dressings should be changed daily, or more often, according to the condition of the wound. Seek medical advice immediately for all serious wounds and burns, and if redness or discomfort occurs, discontinue use and consult a physician or medical professional.\"\n}",
+      "metrics": null,
+      "error": null,
+      "parent_run_id": "6781ecf6-fb4b-48c1-86a4-878d842186ea_0",
+      "start_time": "2024-03-18T05:22:05.394153Z",
+      "end_time": "2024-03-18T05:23:01.294905Z",
+      "index": 0,
+      "api_calls": [
+        {
+          "name": "AzureOpenAI.chat",
+          "type": "Tool",
+          "inputs": {
+            "prompt": "{# Prompt is a jinja2 template that generates prompt for LLM #}\n\nsystem:\n\nYou are an AI assistant for Safety Culture that extracts product information from the content of a web page that has been converted to markdown format. Safety Culture is an online marketplace for selling safety products.\n\nuser:\n\nExtract the product information from the following product page that has been extracted as markdown and return it in JSON format.\n\n# Supersafe LS-1 Safety Helmet\n\n**Product ID:** HS12345  \n**Category:** Personal Protective Equipment  \n**Price:** $49.99  \n**Stock:** 100  \n\nA robust safety helmet with adjustable straps and a cushioned interior for comfort.\n\nColour is white and Size is Large. Batteries not required.\n\n## Manufacturer\n\n**Name:** Safety First  \n**Location:** United States  \n\n## Features\n\n- Shock Absorbent\n- Adjustable Straps\n- Cushioned Interior\n\n## Safety Standards\n\n- OSHA Compliant\n- ANSI Certified\n\nassistant:\n\n{\n    \"product_id\": \"HS12345\",\n    \"name\": \"Supersafe LS-1 Safety Helmet\",\n    \"description\": \"A robust safety helmet with adjustable straps and a cushioned interior for comfort.\",\n    \"category\": \"Personal Protective Equipment\",\n    \"price\": 49.99,\n    \"currency\": \"USD\",\n    \"stock\": 100,\n    \"attributes\": [\n        \"color\": \"White\",\n        \"size\": \"large\"\n    ]\n    \"manufacturer\": {\n        \"name\": \"Safety First\",\n        \"location\": \"United States\"\n    },\n    \"features\": [\n        \"Shock Absorbent\",\n        \"Adjustable Straps\",\n        \"Cushioned Interior\"\n    ],\n    \"safety_standards\": [\n        \"OSHA Compliant\",\n        \"ANSI Certified\"\n    ]\n}\n\nuser:\n\nExtract the product information from the following product page that has been extracted as markdown and return it in JSON format.\n\n{{markdown}}",
+            "deployment_name": "gpt-4",
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "max_tokens": 2000,
+            "response_format": {
+              "type": "text"
+            },
+            "presence_penalty": 0.0,
+            "frequency_penalty": 0.0,
+            "markdown": "# \nAEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\n\n\n                    AEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\n                  \n\n\n\nThe AeroPadTM Non-Adherent Dressing is a high-quality wound pad dressing\nthat’s recommended for the treatment of injuries such as cuts, grazes and\nminor burns. This absorbent wound dressing is lightweight yet effective, and\nideal for use underneath cotton bandages and first aid supports, helping to\nprotect a wound from the risk of infection while healing or awaiting further\nmedical treatment. Additionally, the sterile dressing can also be used in the\ntreatment and protection of minor wounds in and around the eye area.\n**Minimise wound trauma with a non-stick dressing** All AeroPadTM dressing\npads are designed with a special non-adherent film applied to each side to\nhelp protect healing wounds and minimise the risk of further damaging the area\nin or around the wound when changing the dressing. A bandage or some form of\nadhesive tape is required to effectively apply and hold the non-stick dressing\nto a healing wound. **SupaSorb technology for a premium absorbent dressing**\nAeroPadTM non-adherent dressing pads are fitted with a premium absorbent inner\nmaterial to aid in the treatment of weeping or bleeding wounds. Applying the\nabsorbent dressing enables a healing wound to stay dry, which is paramount for\ntreatment, infection mitigation and proper recovery.  _Remember: absorbent\ndressings require regular changing to help keep the wound clean._ **Each wound\npad dressing is individually packed and sterilised** The AeroPadTM non-\nadherent sterile dressing comes individually packaged to ensure that each\ndressing pad is kept clean and safe until needed. Applying a sterile wound\ndressing is key to keeping the wound clean and free from infection, allowing\nfor proper and effective healing. **A comprehensive range of sizes for all\nneeds** AeroPadTM non-adherent sterile wound dressings come in a variety of\nsizes to suit all wound and injury requirements, including:  _AeroPad TM Non-\nAdherent Dressing_\n\n  * 5x5cm, 7.5x5cm, 10×7.5cm, 10x10cm,10x20cm\n\n_AeroPad TM Non-Adherent Eyepad_\n\n  * 5×7.7cm\n\nIt’s recommended to keep a selection of AeroPadTM non-adherent dressings handy\nto be prepared to address any relevant accidents and injuries. Absorbent\ndressings are typically the most common dressings used in the treatment of\nminor surface and eye injuries. **Contraindications and Precautions** Non-\nadherent absorbent wound dressings should be changed daily, or more often,\naccording to the condition of the wound. A leaky wound poses a greater risk of\ninfection and requires regular cleaning to manage effective healing. Seek\nmedical advice immediately for all serious wounds and burns, and if redness or\ndiscomfort occurs, discontinue use and consult a physician or medical\nprofessional\n\n"
+          },
+          "output": "{\n    \"name\": \"AEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\",\n    \"description\": \"The AeroPadTM Non-Adherent Dressing is a high-quality wound pad dressing that’s recommended for the treatment of injuries such as cuts, grazes and minor burns. This absorbent wound dressing is lightweight yet effective, and ideal for use underneath cotton bandages and first aid supports, helping to protect a wound from the risk of infection while healing or awaiting further medical treatment. Additionally, the sterile dressing can also be used in the treatment and protection of minor wounds in and around the eye area.\",\n    \"special_features\": [\n        {\n            \"feature\": \"Minimise wound trauma with a non-stick dressing\",\n            \"description\": \"All AeroPadTM dressing pads are designed with a special non-adherent film applied to each side to help protect healing wounds and minimise the risk of further damaging the area in or around the wound when changing the dressing. A bandage or some form of adhesive tape is required to effectively apply and hold the non-stick dressing to a healing wound.\"\n        },\n        {\n            \"feature\":\"SupaSorb technology for a premium absorbent dressing\",\n            \"description\": \" AeroPadTM non-adherent dressing pads are fitted with a premium absorbent inner material to aid in the treatment of weeping or bleeding wounds. Applying the absorbent dressing enables a healing wound to stay dry.\"\n        },\n        {\n            \"feature\":\"Each wound pad dressing is individually packed and sterilised\",\n            \"description\": \"The AeroPadTM non-adherent sterile dressing comes individually packaged to ensure that each dressing pad is kept clean and safe until needed. Applying a sterile wound dressing is key to keeping the wound clean and free from infection, allowing for proper and effective healing.\"\n        },\n        {\n            \"feature\":\"A comprehensive range of sizes for all needs\",\n            \"description\":\"AeroPadTM non-adherent sterile wound dressings come in a variety of sizes to suit all wound and injury requirements, including Non-Adherent Dressing 5x5cm, 7.5x5cm, 10×7.5cm, 10x10cm,10x20cm and Non-Adherent Eyepad 5×7.7cm. It’s recommended to keep a selection of AeroPadTM non-adherent dressings handy to be prepared to address any relevant accidents and injuries.\"\n        }\n    ],\n    \"precautions\": \"Non-adherent absorbent wound dressings should be changed daily, or more often, according to the condition of the wound. Seek medical advice immediately for all serious wounds and burns, and if redness or discomfort occurs, discontinue use and consult a physician or medical professional.\"\n}",
+          "start_time": 1710692525.395231,
+          "end_time": 1710692581.291902,
+          "error": null,
+          "children": [
+            {
+              "name": "openai.resources.chat.completions.Completions.create",
+              "type": "LLM",
+              "inputs": {
+                "model": "gpt-4",
+                "messages": [
+                  {
+                    "role": "system",
+                    "content": "You are an AI assistant for Safety Culture that extracts product information from the content of a web page that has been converted to markdown format. Safety Culture is an online marketplace for selling safety products."
+                  },
+                  {
+                    "role": "user",
+                    "content": "Extract the product information from the following product page that has been extracted as markdown and return it in JSON format.\n\n# Supersafe LS-1 Safety Helmet\n\n**Product ID:** HS12345  \n**Category:** Personal Protective Equipment  \n**Price:** $49.99  \n**Stock:** 100  \n\nA robust safety helmet with adjustable straps and a cushioned interior for comfort.\n\nColour is white and Size is Large. Batteries not required.\n\n## Manufacturer\n\n**Name:** Safety First  \n**Location:** United States  \n\n## Features\n\n- Shock Absorbent\n- Adjustable Straps\n- Cushioned Interior\n\n## Safety Standards\n\n- OSHA Compliant\n- ANSI Certified"
+                  },
+                  {
+                    "role": "assistant",
+                    "content": "{\n    \"product_id\": \"HS12345\",\n    \"name\": \"Supersafe LS-1 Safety Helmet\",\n    \"description\": \"A robust safety helmet with adjustable straps and a cushioned interior for comfort.\",\n    \"category\": \"Personal Protective Equipment\",\n    \"price\": 49.99,\n    \"currency\": \"USD\",\n    \"stock\": 100,\n    \"attributes\": [\n        \"color\": \"White\",\n        \"size\": \"large\"\n    ]\n    \"manufacturer\": {\n        \"name\": \"Safety First\",\n        \"location\": \"United States\"\n    },\n    \"features\": [\n        \"Shock Absorbent\",\n        \"Adjustable Straps\",\n        \"Cushioned Interior\"\n    ],\n    \"safety_standards\": [\n        \"OSHA Compliant\",\n        \"ANSI Certified\"\n    ]\n}"
+                  },
+                  {
+                    "role": "user",
+                    "content": "Extract the product information from the following product page that has been extracted as markdown and return it in JSON format.\n\n# \nAEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\n\n\n                    AEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\n                  \n\n\n\nThe AeroPadTM Non-Adherent Dressing is a high-quality wound pad dressing\nthat’s recommended for the treatment of injuries such as cuts, grazes and\nminor burns. This absorbent wound dressing is lightweight yet effective, and\nideal for use underneath cotton bandages and first aid supports, helping to\nprotect a wound from the risk of infection while healing or awaiting further\nmedical treatment. Additionally, the sterile dressing can also be used in the\ntreatment and protection of minor wounds in and around the eye area.\n**Minimise wound trauma with a non-stick dressing** All AeroPadTM dressing\npads are designed with a special non-adherent film applied to each side to\nhelp protect healing wounds and minimise the risk of further damaging the area\nin or around the wound when changing the dressing. A bandage or some form of\nadhesive tape is required to effectively apply and hold the non-stick dressing\nto a healing wound. **SupaSorb technology for a premium absorbent dressing**\nAeroPadTM non-adherent dressing pads are fitted with a premium absorbent inner\nmaterial to aid in the treatment of weeping or bleeding wounds. Applying the\nabsorbent dressing enables a healing wound to stay dry, which is paramount for\ntreatment, infection mitigation and proper recovery.  _Remember: absorbent\ndressings require regular changing to help keep the wound clean._ **Each wound\npad dressing is individually packed and sterilised** The AeroPadTM non-\nadherent sterile dressing comes individually packaged to ensure that each\ndressing pad is kept clean and safe until needed. Applying a sterile wound\ndressing is key to keeping the wound clean and free from infection, allowing\nfor proper and effective healing. **A comprehensive range of sizes for all\nneeds** AeroPadTM non-adherent sterile wound dressings come in a variety of\nsizes to suit all wound and injury requirements, including:  _AeroPad TM Non-\nAdherent Dressing_\n\n  * 5x5cm, 7.5x5cm, 10×7.5cm, 10x10cm,10x20cm\n\n_AeroPad TM Non-Adherent Eyepad_\n\n  * 5×7.7cm\n\nIt’s recommended to keep a selection of AeroPadTM non-adherent dressings handy\nto be prepared to address any relevant accidents and injuries. Absorbent\ndressings are typically the most common dressings used in the treatment of\nminor surface and eye injuries. **Contraindications and Precautions** Non-\nadherent absorbent wound dressings should be changed daily, or more often,\naccording to the condition of the wound. A leaky wound poses a greater risk of\ninfection and requires regular cleaning to manage effective healing. Seek\nmedical advice immediately for all serious wounds and burns, and if redness or\ndiscomfort occurs, discontinue use and consult a physician or medical\nprofessional"
+                  }
+                ],
+                "temperature": 1.0,
+                "top_p": 1.0,
+                "n": 1,
+                "stream": false,
+                "stop": null,
+                "max_tokens": 2000,
+                "presence_penalty": 0.0,
+                "frequency_penalty": 0.0,
+                "logit_bias": {},
+                "user": "",
+                "response_format": {
+                  "type": "text"
+                }
+              },
+              "output": {
+                "id": "chatcmpl-93zjhS5H6anJpvMDTnsrgxjDzbyCx",
+                "choices": [
+                  {
+                    "finish_reason": "stop",
+                    "index": 0,
+                    "logprobs": null,
+                    "message": {
+                      "content": "{\n    \"name\": \"AEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\",\n    \"description\": \"The AeroPadTM Non-Adherent Dressing is a high-quality wound pad dressing that’s recommended for the treatment of injuries such as cuts, grazes and minor burns. This absorbent wound dressing is lightweight yet effective, and ideal for use underneath cotton bandages and first aid supports, helping to protect a wound from the risk of infection while healing or awaiting further medical treatment. Additionally, the sterile dressing can also be used in the treatment and protection of minor wounds in and around the eye area.\",\n    \"special_features\": [\n        {\n            \"feature\": \"Minimise wound trauma with a non-stick dressing\",\n            \"description\": \"All AeroPadTM dressing pads are designed with a special non-adherent film applied to each side to help protect healing wounds and minimise the risk of further damaging the area in or around the wound when changing the dressing. A bandage or some form of adhesive tape is required to effectively apply and hold the non-stick dressing to a healing wound.\"\n        },\n        {\n            \"feature\":\"SupaSorb technology for a premium absorbent dressing\",\n            \"description\": \" AeroPadTM non-adherent dressing pads are fitted with a premium absorbent inner material to aid in the treatment of weeping or bleeding wounds. Applying the absorbent dressing enables a healing wound to stay dry.\"\n        },\n        {\n            \"feature\":\"Each wound pad dressing is individually packed and sterilised\",\n            \"description\": \"The AeroPadTM non-adherent sterile dressing comes individually packaged to ensure that each dressing pad is kept clean and safe until needed. Applying a sterile wound dressing is key to keeping the wound clean and free from infection, allowing for proper and effective healing.\"\n        },\n        {\n            \"feature\":\"A comprehensive range of sizes for all needs\",\n            \"description\":\"AeroPadTM non-adherent sterile wound dressings come in a variety of sizes to suit all wound and injury requirements, including Non-Adherent Dressing 5x5cm, 7.5x5cm, 10×7.5cm, 10x10cm,10x20cm and Non-Adherent Eyepad 5×7.7cm. It’s recommended to keep a selection of AeroPadTM non-adherent dressings handy to be prepared to address any relevant accidents and injuries.\"\n        }\n    ],\n    \"precautions\": \"Non-adherent absorbent wound dressings should be changed daily, or more often, according to the condition of the wound. Seek medical advice immediately for all serious wounds and burns, and if redness or discomfort occurs, discontinue use and consult a physician or medical professional.\"\n}",
+                      "role": "assistant",
+                      "function_call": null,
+                      "tool_calls": null
+                    },
+                    "content_filter_results": {
+                      "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                      },
+                      "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                      },
+                      "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                      },
+                      "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                      }
+                    }
+                  }
+                ],
+                "created": 1710739325,
+                "model": "gpt-4",
+                "object": "chat.completion",
+                "system_fingerprint": null,
+                "usage": {
+                  "completion_tokens": 568,
+                  "prompt_tokens": 1045,
+                  "total_tokens": 1613
+                },
+                "prompt_filter_results": [
+                  {
+                    "prompt_index": 0,
+                    "content_filter_results": {
+                      "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                      },
+                      "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                      },
+                      "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                      },
+                      "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                      }
+                    }
+                  }
+                ]
+              },
+              "start_time": 1710692525.398256,
+              "end_time": 1710692581.291902,
+              "error": null,
+              "children": [],
+              "node_name": null,
+              "parent_id": "8fc73199-c4f8-4b23-a65b-1d83d0d5714c",
+              "id": "c5860f49-9e47-47ba-811a-53fbc4f96979",
+              "system_metrics": {
+                "completion_tokens": 568,
+                "prompt_tokens": 1045,
+                "total_tokens": 1613
+              }
+            }
+          ],
+          "node_name": "extractProduct",
+          "parent_id": "",
+          "id": "8fc73199-c4f8-4b23-a65b-1d83d0d5714c",
+          "system_metrics": {
+            "completion_tokens": 568,
+            "prompt_tokens": 1045,
+            "total_tokens": 1613
+          }
+        }
+      ],
+      "variant_id": "",
+      "cached_run_id": null,
+      "cached_flow_run_id": null,
+      "logs": {
+        "stdout": "",
+        "stderr": ""
+      },
+      "system_metrics": {
+        "completion_tokens": 568,
+        "prompt_tokens": 1045,
+        "total_tokens": 1613,
+        "duration": 55.900752
+      },
+      "result": "{\n    \"name\": \"AEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\",\n    \"description\": \"The AeroPadTM Non-Adherent Dressing is a high-quality wound pad dressing that’s recommended for the treatment of injuries such as cuts, grazes and minor burns. This absorbent wound dressing is lightweight yet effective, and ideal for use underneath cotton bandages and first aid supports, helping to protect a wound from the risk of infection while healing or awaiting further medical treatment. Additionally, the sterile dressing can also be used in the treatment and protection of minor wounds in and around the eye area.\",\n    \"special_features\": [\n        {\n            \"feature\": \"Minimise wound trauma with a non-stick dressing\",\n            \"description\": \"All AeroPadTM dressing pads are designed with a special non-adherent film applied to each side to help protect healing wounds and minimise the risk of further damaging the area in or around the wound when changing the dressing. A bandage or some form of adhesive tape is required to effectively apply and hold the non-stick dressing to a healing wound.\"\n        },\n        {\n            \"feature\":\"SupaSorb technology for a premium absorbent dressing\",\n            \"description\": \" AeroPadTM non-adherent dressing pads are fitted with a premium absorbent inner material to aid in the treatment of weeping or bleeding wounds. Applying the absorbent dressing enables a healing wound to stay dry.\"\n        },\n        {\n            \"feature\":\"Each wound pad dressing is individually packed and sterilised\",\n            \"description\": \"The AeroPadTM non-adherent sterile dressing comes individually packaged to ensure that each dressing pad is kept clean and safe until needed. Applying a sterile wound dressing is key to keeping the wound clean and free from infection, allowing for proper and effective healing.\"\n        },\n        {\n            \"feature\":\"A comprehensive range of sizes for all needs\",\n            \"description\":\"AeroPadTM non-adherent sterile wound dressings come in a variety of sizes to suit all wound and injury requirements, including Non-Adherent Dressing 5x5cm, 7.5x5cm, 10×7.5cm, 10x10cm,10x20cm and Non-Adherent Eyepad 5×7.7cm. It’s recommended to keep a selection of AeroPadTM non-adherent dressings handy to be prepared to address any relevant accidents and injuries.\"\n        }\n    ],\n    \"precautions\": \"Non-adherent absorbent wound dressings should be changed daily, or more often, according to the condition of the wound. Seek medical advice immediately for all serious wounds and burns, and if redness or discomfort occurs, discontinue use and consult a physician or medical professional.\"\n}"
+    },
+    {
+      "node": "echo",
+      "flow_run_id": "6781ecf6-fb4b-48c1-86a4-878d842186ea",
+      "run_id": "6781ecf6-fb4b-48c1-86a4-878d842186ea_echo_0",
+      "status": "Completed",
+      "inputs": {
+        "product": "{\n    \"name\": \"AEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\",\n    \"description\": \"The AeroPadTM Non-Adherent Dressing is a high-quality wound pad dressing that’s recommended for the treatment of injuries such as cuts, grazes and minor burns. This absorbent wound dressing is lightweight yet effective, and ideal for use underneath cotton bandages and first aid supports, helping to protect a wound from the risk of infection while healing or awaiting further medical treatment. Additionally, the sterile dressing can also be used in the treatment and protection of minor wounds in and around the eye area.\",\n    \"special_features\": [\n        {\n            \"feature\": \"Minimise wound trauma with a non-stick dressing\",\n            \"description\": \"All AeroPadTM dressing pads are designed with a special non-adherent film applied to each side to help protect healing wounds and minimise the risk of further damaging the area in or around the wound when changing the dressing. A bandage or some form of adhesive tape is required to effectively apply and hold the non-stick dressing to a healing wound.\"\n        },\n        {\n            \"feature\":\"SupaSorb technology for a premium absorbent dressing\",\n            \"description\": \" AeroPadTM non-adherent dressing pads are fitted with a premium absorbent inner material to aid in the treatment of weeping or bleeding wounds. Applying the absorbent dressing enables a healing wound to stay dry.\"\n        },\n        {\n            \"feature\":\"Each wound pad dressing is individually packed and sterilised\",\n            \"description\": \"The AeroPadTM non-adherent sterile dressing comes individually packaged to ensure that each dressing pad is kept clean and safe until needed. Applying a sterile wound dressing is key to keeping the wound clean and free from infection, allowing for proper and effective healing.\"\n        },\n        {\n            \"feature\":\"A comprehensive range of sizes for all needs\",\n            \"description\":\"AeroPadTM non-adherent sterile wound dressings come in a variety of sizes to suit all wound and injury requirements, including Non-Adherent Dressing 5x5cm, 7.5x5cm, 10×7.5cm, 10x10cm,10x20cm and Non-Adherent Eyepad 5×7.7cm. It’s recommended to keep a selection of AeroPadTM non-adherent dressings handy to be prepared to address any relevant accidents and injuries.\"\n        }\n    ],\n    \"precautions\": \"Non-adherent absorbent wound dressings should be changed daily, or more often, according to the condition of the wound. Seek medical advice immediately for all serious wounds and burns, and if redness or discomfort occurs, discontinue use and consult a physician or medical professional.\"\n}"
+      },
+      "output": "{\n    \"name\": \"AEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\",\n    \"description\": \"The AeroPadTM Non-Adherent Dressing is a high-quality wound pad dressing that’s recommended for the treatment of injuries such as cuts, grazes and minor burns. This absorbent wound dressing is lightweight yet effective, and ideal for use underneath cotton bandages and first aid supports, helping to protect a wound from the risk of infection while healing or awaiting further medical treatment. Additionally, the sterile dressing can also be used in the treatment and protection of minor wounds in and around the eye area.\",\n    \"special_features\": [\n        {\n            \"feature\": \"Minimise wound trauma with a non-stick dressing\",\n            \"description\": \"All AeroPadTM dressing pads are designed with a special non-adherent film applied to each side to help protect healing wounds and minimise the risk of further damaging the area in or around the wound when changing the dressing. A bandage or some form of adhesive tape is required to effectively apply and hold the non-stick dressing to a healing wound.\"\n        },\n        {\n            \"feature\":\"SupaSorb technology for a premium absorbent dressing\",\n            \"description\": \" AeroPadTM non-adherent dressing pads are fitted with a premium absorbent inner material to aid in the treatment of weeping or bleeding wounds. Applying the absorbent dressing enables a healing wound to stay dry.\"\n        },\n        {\n            \"feature\":\"Each wound pad dressing is individually packed and sterilised\",\n            \"description\": \"The AeroPadTM non-adherent sterile dressing comes individually packaged to ensure that each dressing pad is kept clean and safe until needed. Applying a sterile wound dressing is key to keeping the wound clean and free from infection, allowing for proper and effective healing.\"\n        },\n        {\n            \"feature\":\"A comprehensive range of sizes for all needs\",\n            \"description\":\"AeroPadTM non-adherent sterile wound dressings come in a variety of sizes to suit all wound and injury requirements, including Non-Adherent Dressing 5x5cm, 7.5x5cm, 10×7.5cm, 10x10cm,10x20cm and Non-Adherent Eyepad 5×7.7cm. It’s recommended to keep a selection of AeroPadTM non-adherent dressings handy to be prepared to address any relevant accidents and injuries.\"\n        }\n    ],\n    \"precautions\": \"Non-adherent absorbent wound dressings should be changed daily, or more often, according to the condition of the wound. Seek medical advice immediately for all serious wounds and burns, and if redness or discomfort occurs, discontinue use and consult a physician or medical professional.\"\n}",
+      "metrics": null,
+      "error": null,
+      "parent_run_id": "6781ecf6-fb4b-48c1-86a4-878d842186ea_0",
+      "start_time": "2024-03-18T05:23:01.297391Z",
+      "end_time": "2024-03-18T05:23:01.299423Z",
+      "index": 0,
+      "api_calls": [
+        {
+          "name": "echo",
+          "type": "Tool",
+          "inputs": {
+            "product": "{\n    \"name\": \"AEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\",\n    \"description\": \"The AeroPadTM Non-Adherent Dressing is a high-quality wound pad dressing that’s recommended for the treatment of injuries such as cuts, grazes and minor burns. This absorbent wound dressing is lightweight yet effective, and ideal for use underneath cotton bandages and first aid supports, helping to protect a wound from the risk of infection while healing or awaiting further medical treatment. Additionally, the sterile dressing can also be used in the treatment and protection of minor wounds in and around the eye area.\",\n    \"special_features\": [\n        {\n            \"feature\": \"Minimise wound trauma with a non-stick dressing\",\n            \"description\": \"All AeroPadTM dressing pads are designed with a special non-adherent film applied to each side to help protect healing wounds and minimise the risk of further damaging the area in or around the wound when changing the dressing. A bandage or some form of adhesive tape is required to effectively apply and hold the non-stick dressing to a healing wound.\"\n        },\n        {\n            \"feature\":\"SupaSorb technology for a premium absorbent dressing\",\n            \"description\": \" AeroPadTM non-adherent dressing pads are fitted with a premium absorbent inner material to aid in the treatment of weeping or bleeding wounds. Applying the absorbent dressing enables a healing wound to stay dry.\"\n        },\n        {\n            \"feature\":\"Each wound pad dressing is individually packed and sterilised\",\n            \"description\": \"The AeroPadTM non-adherent sterile dressing comes individually packaged to ensure that each dressing pad is kept clean and safe until needed. Applying a sterile wound dressing is key to keeping the wound clean and free from infection, allowing for proper and effective healing.\"\n        },\n        {\n            \"feature\":\"A comprehensive range of sizes for all needs\",\n            \"description\":\"AeroPadTM non-adherent sterile wound dressings come in a variety of sizes to suit all wound and injury requirements, including Non-Adherent Dressing 5x5cm, 7.5x5cm, 10×7.5cm, 10x10cm,10x20cm and Non-Adherent Eyepad 5×7.7cm. It’s recommended to keep a selection of AeroPadTM non-adherent dressings handy to be prepared to address any relevant accidents and injuries.\"\n        }\n    ],\n    \"precautions\": \"Non-adherent absorbent wound dressings should be changed daily, or more often, according to the condition of the wound. Seek medical advice immediately for all serious wounds and burns, and if redness or discomfort occurs, discontinue use and consult a physician or medical professional.\"\n}"
+          },
+          "output": "{\n    \"name\": \"AEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\",\n    \"description\": \"The AeroPadTM Non-Adherent Dressing is a high-quality wound pad dressing that’s recommended for the treatment of injuries such as cuts, grazes and minor burns. This absorbent wound dressing is lightweight yet effective, and ideal for use underneath cotton bandages and first aid supports, helping to protect a wound from the risk of infection while healing or awaiting further medical treatment. Additionally, the sterile dressing can also be used in the treatment and protection of minor wounds in and around the eye area.\",\n    \"special_features\": [\n        {\n            \"feature\": \"Minimise wound trauma with a non-stick dressing\",\n            \"description\": \"All AeroPadTM dressing pads are designed with a special non-adherent film applied to each side to help protect healing wounds and minimise the risk of further damaging the area in or around the wound when changing the dressing. A bandage or some form of adhesive tape is required to effectively apply and hold the non-stick dressing to a healing wound.\"\n        },\n        {\n            \"feature\":\"SupaSorb technology for a premium absorbent dressing\",\n            \"description\": \" AeroPadTM non-adherent dressing pads are fitted with a premium absorbent inner material to aid in the treatment of weeping or bleeding wounds. Applying the absorbent dressing enables a healing wound to stay dry.\"\n        },\n        {\n            \"feature\":\"Each wound pad dressing is individually packed and sterilised\",\n            \"description\": \"The AeroPadTM non-adherent sterile dressing comes individually packaged to ensure that each dressing pad is kept clean and safe until needed. Applying a sterile wound dressing is key to keeping the wound clean and free from infection, allowing for proper and effective healing.\"\n        },\n        {\n            \"feature\":\"A comprehensive range of sizes for all needs\",\n            \"description\":\"AeroPadTM non-adherent sterile wound dressings come in a variety of sizes to suit all wound and injury requirements, including Non-Adherent Dressing 5x5cm, 7.5x5cm, 10×7.5cm, 10x10cm,10x20cm and Non-Adherent Eyepad 5×7.7cm. It’s recommended to keep a selection of AeroPadTM non-adherent dressings handy to be prepared to address any relevant accidents and injuries.\"\n        }\n    ],\n    \"precautions\": \"Non-adherent absorbent wound dressings should be changed daily, or more often, according to the condition of the wound. Seek medical advice immediately for all serious wounds and burns, and if redness or discomfort occurs, discontinue use and consult a physician or medical professional.\"\n}",
+          "start_time": 1710692581.298424,
+          "end_time": 1710692581.299423,
+          "error": null,
+          "children": [],
+          "node_name": "echo",
+          "parent_id": "",
+          "id": "9a1bcb17-69a3-4151-99d0-9a834e8075fb",
+          "system_metrics": {}
+        }
+      ],
+      "variant_id": "",
+      "cached_run_id": null,
+      "cached_flow_run_id": null,
+      "logs": {
+        "stdout": "",
+        "stderr": ""
+      },
+      "system_metrics": {
+        "duration": 0.002032
+      },
+      "result": "{\n    \"name\": \"AEROPAD Non-Adherent Dressing 7.5 x 10cm Box/50\",\n    \"description\": \"The AeroPadTM Non-Adherent Dressing is a high-quality wound pad dressing that’s recommended for the treatment of injuries such as cuts, grazes and minor burns. This absorbent wound dressing is lightweight yet effective, and ideal for use underneath cotton bandages and first aid supports, helping to protect a wound from the risk of infection while healing or awaiting further medical treatment. Additionally, the sterile dressing can also be used in the treatment and protection of minor wounds in and around the eye area.\",\n    \"special_features\": [\n        {\n            \"feature\": \"Minimise wound trauma with a non-stick dressing\",\n            \"description\": \"All AeroPadTM dressing pads are designed with a special non-adherent film applied to each side to help protect healing wounds and minimise the risk of further damaging the area in or around the wound when changing the dressing. A bandage or some form of adhesive tape is required to effectively apply and hold the non-stick dressing to a healing wound.\"\n        },\n        {\n            \"feature\":\"SupaSorb technology for a premium absorbent dressing\",\n            \"description\": \" AeroPadTM non-adherent dressing pads are fitted with a premium absorbent inner material to aid in the treatment of weeping or bleeding wounds. Applying the absorbent dressing enables a healing wound to stay dry.\"\n        },\n        {\n            \"feature\":\"Each wound pad dressing is individually packed and sterilised\",\n            \"description\": \"The AeroPadTM non-adherent sterile dressing comes individually packaged to ensure that each dressing pad is kept clean and safe until needed. Applying a sterile wound dressing is key to keeping the wound clean and free from infection, allowing for proper and effective healing.\"\n        },\n        {\n            \"feature\":\"A comprehensive range of sizes for all needs\",\n            \"description\":\"AeroPadTM non-adherent sterile wound dressings come in a variety of sizes to suit all wound and injury requirements, including Non-Adherent Dressing 5x5cm, 7.5x5cm, 10×7.5cm, 10x10cm,10x20cm and Non-Adherent Eyepad 5×7.7cm. It’s recommended to keep a selection of AeroPadTM non-adherent dressings handy to be prepared to address any relevant accidents and injuries.\"\n        }\n    ],\n    \"precautions\": \"Non-adherent absorbent wound dressings should be changed daily, or more often, according to the condition of the wound. Seek medical advice immediately for all serious wounds and burns, and if redness or discomfort occurs, discontinue use and consult a physician or medical professional.\"\n}"
+    }
+  ]
+}

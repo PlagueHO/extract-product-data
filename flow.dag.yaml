@@ -1,10 +1,13 @@
 id: template_standard_flow
 name: Template Standard Flow
+environment:
+  python_requirements_txt: requirements.txt
 inputs:
   url:
     type: string
     description: The URL of the product page to extract product information from.
     is_chat_input: false
+    default: https://www.medisave.co.nz/collections/bandages-tape/products/aeropad-non-adherent-dressing-7-5-x-10cm-box-50
 outputs:
   product_json:
     type: string
@@ -33,10 +36,8 @@ nodes:
     presence_penalty: 0
     frequency_penalty: 0
     markdown: ${getWebpage.output.markdown}
-  provider: AzureOpenAI
   connection: Default_AzureOpenAI
   api: chat
-  module: promptflow.tools.aoai
   use_variants: false
 - name: echo
   type: python
@@ -46,6 +47,3 @@ nodes:
   inputs:
     product: ${extractProduct.output}
   use_variants: false
-node_variants: {}
-environment:
-  python_requirements_txt: requirements.txt
